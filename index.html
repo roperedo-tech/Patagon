@@ -3,70 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PATAGON: equipamiento outdoor para tus próximas aventuras.">
   <title>PATAGON | Equipamiento Outdoor</title>
   <style>
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f3ed;
-      color: #26352d;
-    }
-    header {
-      background: #183c32;
-      color: white;
-      padding: 25px 7%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+    body { margin: 0; font-family: Arial, sans-serif; background: #f4f3ed; color: #26352d; }
+    header { background: #183c32; color: white; padding: 25px 7%; display: flex; justify-content: space-between; align-items: center; }
     header h1 { margin: 0; letter-spacing: 5px; }
     header span { color: #c8d5b9; }
-    .hero {
-      background: linear-gradient(90deg, #183c32dd, #183c3266),
-        url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1600');
-      background-size: cover;
-      background-position: center;
-      min-height: 390px;
-      display: flex;
-      align-items: center;
-      padding: 50px 8%;
-      color: white;
-    }
+    .hero { background: linear-gradient(90deg, #183c32dd, #183c3266), url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1600'); background-size: cover; background-position: center; min-height: 390px; display: flex; align-items: center; padding: 50px 8%; color: white; }
     .hero h2 { font-size: 48px; margin-bottom: 12px; }
     .hero p { font-size: 19px; }
     main { padding: 45px 7%; }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 25px;
-    }
-    .product {
-      background: white;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 3px 12px #0001;
-    }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 25px; }
+    .product { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 3px 12px #0001; }
     .product img { width: 100%; height: 210px; object-fit: cover; }
     .product div { padding: 18px; }
     .product h3 { margin-top: 0; }
-    .price { font-size: 23px; font-weight: bold; color: #246044; }
-    .buy {
-      display: block;
-      background: #183c32;
-      color: white;
-      text-decoration: none;
-      padding: 13px;
-      text-align: center;
-      border-radius: 6px;
-      margin-top: 15px;
-    }
-    footer {
-      background: #183c32;
-      color: white;
-      text-align: center;
-      padding: 25px;
-    }
+    .price { font-size: 20px; font-weight: bold; color: #246044; }
+    .buy { display: block; background: #183c32; color: white; text-decoration: none; padding: 13px; text-align: center; border-radius: 6px; margin-top: 15px; }
+    .buy:hover { background: #285b49; }
+    footer { background: #183c32; color: white; text-align: center; padding: 25px; }
+    @media (max-width: 600px) { header { gap: 12px; flex-wrap: wrap; } .hero h2 { font-size: 36px; } }
   </style>
 </head>
 <body>
@@ -74,14 +32,12 @@
     <h1>PATAGON</h1>
     <span>OUTDOOR EQUIPMENT</span>
   </header>
-
   <section class="hero">
     <div>
       <h2>La aventura empieza acá.</h2>
       <p>Equipamiento para explorar sin límites.</p>
     </div>
   </section>
-
   <main>
     <h2>Equipamiento destacado</h2>
     <div class="products">
@@ -91,24 +47,38 @@
           <h3>Mochila Nexxt Grizzly 65L</h3>
           <p>Compañera ideal para tus travesías.</p>
           <p class="price">Consultar precio</p>
-          <a class="buy" href="https://meli.la/1YcvhhQ" target="_blank">Ver producto</a>
+          <a class="buy" href="https://meli.la/1YcvhhQ" target="_blank" rel="noopener noreferrer">Ver producto</a>
         </div>
       </article>
-
       <article class="product">
         <img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=700" alt="Carpa de camping">
         <div>
-          <h3>Carpa Naturehike Hiby</h3>
-          <p>Para disfrutar de la naturaleza.</p>
+          <h3>Carpa Naturehike Hiby 2 personas</h3>
+          <p>Una opción compacta para tus salidas al aire libre.</p>
           <p class="price">Consultar precio</p>
-          <a class="buy" href="https://meli.la/1SqUVGN" target="_blank">Ver producto</a>
+          <a class="buy" href="https://meli.la/1SqUVGN" target="_blank" rel="noopener noreferrer">Ver producto</a>
+        </div>
+      </article>
+      <article class="product">
+        <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=700" alt="Carpa de montaña">
+        <div>
+          <h3>Carpa Doite Himalaya 2</h3>
+          <p>Para acompañarte en tus aventuras de montaña.</p>
+          <p class="price">Consultar precio</p>
+          <a class="buy" href="https://meli.la/11HWA1M" target="_blank" rel="noopener noreferrer">Ver producto</a>
+        </div>
+      </article>
+      <article class="product">
+        <img src="https://images.unsplash.com/photo-1504851149312-7a075b496cc7?w=700" alt="Campamento en la montaña">
+        <div>
+          <h3>Carpa Doite Zolo Especial Duraluminio 5000 mm</h3>
+          <p>Equipamiento para disfrutar de la naturaleza.</p>
+          <p class="price">Consultar precio</p>
+          <a class="buy" href="https://meli.la/2uMRKKY" target="_blank" rel="noopener noreferrer">Ver producto</a>
         </div>
       </article>
     </div>
   </main>
-
-  <footer>
-    PATAGON · Equipamiento Outdoor · Argentina
-  </footer>
+  <footer>PATAGON · Equipamiento Outdoor · Argentina</footer>
 </body>
 </html>
