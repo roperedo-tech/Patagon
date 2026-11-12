@@ -15,6 +15,8 @@
     .hero h2 { font-size: 48px; margin-bottom: 12px; }
     .hero p { font-size: 19px; }
     main { padding: 45px 7%; }
+    .category { margin-top: 38px; }
+    .category h2 { border-bottom: 2px solid #c8d5b9; padding-bottom: 10px; margin-bottom: 20px; }
     .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 25px; }
     .product { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 3px 12px #0001; }
     .product img { width: 100%; height: 210px; object-fit: cover; }
@@ -39,17 +41,9 @@
     </div>
   </section>
   <main>
-    <h2>Equipamiento destacado</h2>
-    <div class="products">
-      <article class="product">
-        <img src="https://scandinavianar.vtexassets.com/arquivos/ids/183988/GRIZZLY-Gray-syrah-frente--1-of-1-.jpg?v=638718470171100000" alt="Mochila de trekking">
-        <div>
-          <h3>Mochila Nexxt Grizzly 65L</h3>
-          <p>Compañera ideal para tus travesías.</p>
-          <p class="price">Consultar precio</p>
-          <a class="buy" href="https://meli.la/1YcvhhQ" target="_blank" rel="noopener noreferrer">Ver producto</a>
-        </div>
-      </article>
+    <section class="category">
+      <h2>Carpas</h2>
+      <div class="products">
       <article class="product">
         <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rd74-lvu2xpluw4pob1" alt="Carpa de camping">
         <div>
@@ -77,6 +71,25 @@
           <a class="buy" href="https://meli.la/2uMRKKY" target="_blank" rel="noopener noreferrer">Ver producto</a>
         </div>
       </article>
+      </div>
+    </section>
+    <section class="category">
+      <h2>Mochilas</h2>
+      <div class="products">
+      <article class="product">
+        <img src="https://scandinavianar.vtexassets.com/arquivos/ids/183988/GRIZZLY-Gray-syrah-frente--1-of-1-.jpg?v=638718470171100000" alt="Mochila de trekking">
+        <div>
+          <h3>Mochila Nexxt Grizzly 65L</h3>
+          <p>Compañera ideal para tus travesías.</p>
+          <p class="price">Consultar precio</p>
+          <a class="buy" href="https://meli.la/1YcvhhQ" target="_blank" rel="noopener noreferrer">Ver producto</a>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="category">
+      <h2>Bolsas de dormir</h2>
+      <div class="products">
       <article class="product">
         <img src="https://img.myshopline.com/image/store/2001419528/1660207760542/30d7718c42324dad9106c67d677bad5e.jpg?h=1200&w=1200" alt="Saco de dormir Naturehike CW400 gris y amarillo">
         <div>
@@ -104,7 +117,8 @@
           <a class="buy" href="https://meli.la/24MTpmx" target="_blank" rel="noopener noreferrer">Ver producto</a>
         </div>
       </article>
-    </div>
+      </div>
+    </section>
   </main>
   <footer>PATAGON · Equipamiento Outdoor · Argentina</footer>
 </body>
