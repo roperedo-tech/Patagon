@@ -11,6 +11,9 @@
     header { background: #183c32; color: white; padding: 25px 7%; display: flex; justify-content: space-between; align-items: center; }
     header h1 { margin: 0; letter-spacing: 5px; }
     header span { color: #c8d5b9; }
+    .category-nav { background: #244b3e; padding: 12px 7%; display: flex; gap: 24px; flex-wrap: wrap; }
+    .category-nav a { color: white; text-decoration: none; font-weight: bold; }
+    .category-nav a:hover { color: #c8d5b9; }
     .hero { background: linear-gradient(90deg, #183c32dd, #183c3266), url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1600'); background-size: cover; background-position: center; min-height: 390px; display: flex; align-items: center; padding: 50px 8%; color: white; }
     .hero h2 { font-size: 48px; margin-bottom: 12px; }
     .hero p { font-size: 19px; }
@@ -34,6 +37,11 @@
     <h1>PATAGON</h1>
     <span>OUTDOOR EQUIPMENT</span>
   </header>
+  <nav class="category-nav" aria-label="Categorías del catálogo">
+    <a href="#carpas">Carpas</a>
+    <a href="#mochilas">Mochilas</a>
+    <a href="#bolsas-de-dormir">Bolsas de dormir</a>
+  </nav>
   <section class="hero">
     <div>
       <h2>La aventura empieza acá.</h2>
